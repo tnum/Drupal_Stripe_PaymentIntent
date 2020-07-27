@@ -20,7 +20,7 @@
       };
 
 
-      fetch("/practice/web/stripe-payment/endpoint.json", {
+      fetch("/stripe-payment/endpoint.json", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
