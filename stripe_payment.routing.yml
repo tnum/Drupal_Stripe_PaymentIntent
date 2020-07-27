@@ -1,0 +1,7 @@
+stripe_payment.endpoint:
+  path: /stripe-payment/endpoint.json
+  defaults:
+    _controller: \Drupal\stripe_payment\Controller\StripePaymentEndPoint::captureNotification
+    methods: [POST]
+  requirements:
+    _access: 'TRUE'

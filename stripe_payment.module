@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Contains stripe_payment.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function stripe_payment_theme($existing, $type, $theme, $path) {
+  return [
+    'card_payment' => [],
+  ];
+}

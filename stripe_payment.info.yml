@@ -1,0 +1,5 @@
+name: Stripe Payment
+type: module
+description: A simple checkout form to complete a card payment using Stripe API
+package: Stripe
+core: 8.x
